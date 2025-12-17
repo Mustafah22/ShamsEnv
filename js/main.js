@@ -2,6 +2,7 @@
 /* ========================================================================= */
 /*	Preloader
 /* ========================================================================= */
+document.addEventListener('contextmenu', event => event.preventDefault());
 
 jQuery(window).load(function () {
     $('#preloader').fadeOut('slow');
